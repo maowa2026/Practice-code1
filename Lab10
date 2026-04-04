@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+int a[8][8],b[8][8],c[8][8],i,j;
+for(i=0;i<8;i++)
+{
+for(j=o;j<8;j++);
+{
+scanf("%d",&a[i][j]);
+}
+}
+for(i=0;i<8;i++)
+{
+for(j=0;j<8;j++)
+{
+scanf("%d",&b[i][j]);
+}
+}
+for(i=0;i<8;i++)
+{
+for(j=0;j<8;j++)
+{
+c[i][j] = a[i][j] + b[i][j];
+printf("%d",c[i][j];
+}
+printf("\n");
+}
+return 0;
+}
