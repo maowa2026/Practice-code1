@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a=1;
+do
+{
+printf("%d,%d\n,a,4*a);
+a++
+}
+while(a<=10);
+}
