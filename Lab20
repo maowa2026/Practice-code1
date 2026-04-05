@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int r;
+for(r=1;r<=15;r++)
+{
+printf("%d,%d\n",r,2*r);
+}
+}
